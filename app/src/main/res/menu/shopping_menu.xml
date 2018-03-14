@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="General List"
+        android:id="@+id/general">
+    </item>
+    <item
+        android:title="Invite List"
+        android:id="@+id/invite">
+    </item>
+    <item
+        android:id="@+id/secret"
+        android:title="Secret List"></item>
+
+</menu>

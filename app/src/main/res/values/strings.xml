@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">To-doddi List</string>
+    <string name="title_activity_general">General List</string>
+    <string name="title_activity_shopping">Shopping List</string>
+    <string name="title_activity_party">Invite List</string>
+    <string name="title_activity_editor">New note</string>
+    <string name="title_activity_secret">Secret List</string>
+
+</resources>

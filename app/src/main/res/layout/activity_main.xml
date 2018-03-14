@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com1032.cw1.me00423.me00423_todolist.MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <ImageButton
+            android:id="@+id/general"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="2.5dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:background="@color/colorAccent"
+            android:contentDescription="General"
+            android:onClick="jmpGeneral"
+            app:srcCompat="@drawable/ideas" />
+
+        <ImageButton
+            android:id="@+id/shopping"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="2.5dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:contentDescription="Shopping List"
+            android:onClick="jmpShop"
+            app:srcCompat="@drawable/shop" />
+
+        <ImageButton
+            android:id="@+id/party"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:background="@android:color/holo_orange_light"
+            android:contentDescription="Invite List"
+            android:onClick="jmpParty"
+            app:srcCompat="@drawable/party" />
+
+        <ImageButton
+            android:id="@+id/lock"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_margin="5dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:background="@color/lock"
+            android:contentDescription="Secret List"
+            android:onClick="jmpSecret"
+            app:srcCompat="@drawable/lock" />
+
+
+    </GridLayout>
+</RelativeLayout>

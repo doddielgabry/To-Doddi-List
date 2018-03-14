@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com1032.cw1.me00423.me00423_todolist.CreatePasscodeActivity">
+
+    <TextView
+        android:id="@+id/enterText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/pass1"
+        android:layout_alignStart="@+id/pass1"
+        android:layout_centerHorizontal="false"
+        android:layout_centerInParent="false"
+        android:layout_centerVertical="false"
+        android:layout_marginBottom="46dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Create new passcode"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/pass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:ems="10"
+        android:inputType="numberPassword"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/confirmText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/enterText"
+        android:layout_alignBottom="@+id/enterText"
+        android:layout_alignStart="@+id/enterText"
+        android:layout_centerInParent="false"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Confirm passcode"
+        android:textAlignment="center"
+        android:visibility="invisible"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/pass2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pass1"
+        android:layout_alignBottom="@+id/pass1"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:visibility="invisible"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterText"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"
+        android:text="Update" />
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enterText"
+        android:layout_centerHorizontal="true"
+        android:text="OK" />
+</RelativeLayout>
